@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1573751428 source:/root/Downloads/Space Game/main.cpp
+	<iostream>
+	<vector>
+	"Views.hpp"
+
+1573836756 /root/Downloads/Space Game/Objects.hpp
+	<SFML/Graphics.hpp>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+	<vector>
+
+1573764893 source:/root/Downloads/Space Game/Level1.cpp
+	"Level1.hpp"
+	<string>
+
+1573750569 /root/Downloads/Space Game/Screen.hpp
+	<SFML/Graphics.hpp>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+
+1573761499 source:/root/Downloads/Space Game/menu.cpp
+	"menu.hpp"
+
+1573751237 /root/Downloads/Space Game/Views.hpp
+	"Screen.hpp"
+	"menu.hpp"
+	"Level1.hpp"
+
+1573750963 /root/Downloads/Space Game/menu.cpp
+	"Screen.hpp"
+	"Objects.hpp"
+
+1573750974 /root/Downloads/Space Game/Level1.cpp
+	"Screen.hpp"
+	"Objects.hpp"
+
+1573751214 /root/Downloads/Space Game/Level1.hpp
+	"Screen.hpp"
+	"Objects.hpp"
+
+1573751166 /root/Downloads/Space Game/menu.hpp
+	"Screen.hpp"
+	"Objects.hpp"
+
